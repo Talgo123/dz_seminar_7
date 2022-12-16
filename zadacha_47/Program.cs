@@ -47,7 +47,7 @@ int m = EnterNUmber("Введите значение M: ");
 int n = EnterNUmber("Введите значение N: ");
 
 // Создать двумерный массив.
-double [,] matrix = CreateRandomArray(m, n, -10, 10);
+double[,] matrix = CreateRandomArray(m, n, -10, 10);
 
 // Вывести.
 ShowArray(matrix);
